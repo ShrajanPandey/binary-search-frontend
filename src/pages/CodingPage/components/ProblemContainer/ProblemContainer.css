@@ -1,0 +1,9 @@
+.problem-container {
+    padding: 2%;
+    overflow: auto;
+    resize: horizontal;
+    background-color: aliceblue;
+    border-radius: 2%;
+    margin: 10px;
+    width: 40%;
+}

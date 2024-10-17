@@ -1,10 +1,14 @@
 import "./App.css";
-import CodingPage from "./pages/CodingPage/CommonCodingPage/CodingPage";
+import CodingPage from "./pages/CommonCodingPage/CodingPage";
+import Navbar from "./components/NavBar/NavBar";
+import PeerCodingPage from "./pages/PeerCodingPage/PeerCodingPage";
 
 function App() {
     return (
         <>
-            <CodingPage />
+            <Navbar />
+            <PeerCodingPage />
+            {/* <CodingPage /> */}
         </>
     );
 }

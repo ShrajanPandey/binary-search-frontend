@@ -1,0 +1,18 @@
+.peer-coding-page{
+    height: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.peer-code-arena{
+    width: 45%;
+}
+
+.peer-problem-description{
+    width: 30%;
+}
+
+.peer-dicussion-coontainer{
+    width: 25%;
+}

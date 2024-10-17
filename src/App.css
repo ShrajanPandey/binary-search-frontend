@@ -1,3 +1,9 @@
-body {
-  padding: 2%;
+.ide-component{
+    margin-top: 6px;
+    height: 60%;
+}
+
+.evaluation-component{
+    height: 40%;
+    margin-top: 8px;
 }

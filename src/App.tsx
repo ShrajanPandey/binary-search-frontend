@@ -7,8 +7,8 @@ function App() {
     return (
         <>
             <Navbar />
-            <PeerCodingPage />
-            {/* <CodingPage /> */}
+            {/* <PeerCodingPage /> */}
+            <CodingPage />
         </>
     );
 }

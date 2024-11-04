@@ -1,9 +1,12 @@
-.ide-component{
+.editor-container{
+    background-color: aliceblue;
+    padding: 2px;
     margin-top: 6px;
     height: 60%;
+    border-radius: 1%;
 }
 
 .evaluation-component{
     height: 40%;
-    margin-top: 8px;
+    margin-top: 6px;
 }

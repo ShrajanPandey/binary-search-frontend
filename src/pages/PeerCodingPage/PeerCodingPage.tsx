@@ -1,9 +1,9 @@
 import DiscussionAndTimerContainer from "../../components/DiscussionAndTimerContainer/DiscussionAndTimerContainer";
 import EvaluationContainer from "../../components/EvaluationContainer/EvaluationContainer";
-import IdeContainer from "../../components/IdeContainer/IdeContainer";
 import ProblemContainer from "../../components/ProblemContainer/ProblemContainer";
 import './PeerCodingPage.css';
 import "../../App.css";
+import CodeEditor from "../../components/CodeEditor/CodeEditor";
 
 function PeerCodingPage(){
     return( 
@@ -12,8 +12,8 @@ function PeerCodingPage(){
                 <ProblemContainer />
             </div>
             <div className="peer-code-arena">
-                <div className="ide-component">
-                    <IdeContainer />
+                <div className="editor-container">
+                    <CodeEditor />
                 </div>
                 <div className="evaluation-component">
                     <EvaluationContainer />

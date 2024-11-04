@@ -1,8 +1,8 @@
 import ProblemContainer from "../../components/ProblemContainer/ProblemContainer";
-import IdeContainer from "../../components/IdeContainer/IdeContainer";
 import EvaluationContainer from "../../components/EvaluationContainer/EvaluationContainer";
 import "./CodingPage.css";
 import "../../App.css";
+import CodeEditor from "../../components/CodeEditor/CodeEditor";
 
 function CodingPage() {
     return (
@@ -11,8 +11,8 @@ function CodingPage() {
                 <ProblemContainer />
             </div>
             <div className="code-arena">
-                <div className="ide-component">
-                    <IdeContainer />
+                <div className="editor-container">
+                    <CodeEditor />
                 </div>
                 <div className="evaluation-component">
                     <EvaluationContainer />
